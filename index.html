@@ -3,384 +3,151 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alassane Junior Doumbia — Développeur Full Stack & Mobile</title>
-<meta name="description" content="Portfolio de Alassane Junior Doumbia, Développeur Full Stack et Mobile basé à Abidjan, Côte d'Ivoire.">
+<title>Alassane Junior Doumbia — Développeur Fullstack & Mobile</title>
+<meta name="description" content="Portfolio de Alassane Junior Doumbia, développeur Web et Mobile basé à Abidjan, Côte d’Ivoire.">
+<meta property="og:title" content="Alassane Junior Doumbia — Développeur Fullstack">
+<meta property="og:description" content="Applications web, mobiles et desktop, de l’idée au déploiement. Abidjan, Côte d’Ivoire.">
+<meta property="og:image" content="https://hassancode01-coder.github.io/images/banniere.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header class="nav"><div class="wrap nav-in">
+  <a class="brand" href="#top">Alassane Junior Doumbia</a>
+  <nav><a href="#projets">Projets</a><a href="#competences">Compétences</a><a href="#parcours">Parcours</a><a class="nav-cta" href="#contact">Me contacter</a></nav>
+</div></header>
 
-<!-- NAV -->
-<nav>
-  <div class="nav-inner">
-    <div class="nav-brand">AJ<span>.</span>dev</div>
-    <div class="nav-links">
-      <a href="#about">À propos</a>
-      <a href="#skills">Compétences</a>
-      <a href="#projects">Projets</a>
-      <a href="#experience">Expérience</a>
-      <a href="#contact" class="nav-cta">Me contacter</a>
-    </div>
+<main id="top">
+<section class="wrap hero">
+  <img class="banner" src="images/banniere.jpg" alt="Alassane Junior Doumbia, développeur Web et Mobile">
+  <div class="avail"><span></span>Disponible : stage, CDD, CDI ou freelance</div>
+  <div class="intro">
+    <img class="avatar" src="images/photo.png" alt="Alassane Junior Doumbia">
+    <p class="lead">Développeur Fullstack basé à Abidjan, je conçois des applications web, mobiles et desktop utiles, pensées pour les réalités africaines, de l’idée jusqu’au déploiement.</p>
   </div>
-</nav>
-
-<!-- HERO -->
-<div class="hero">
-  <div class="glow1"></div>
-  <div class="glow2"></div>
-  <div class="hero-inner">
-    <div>
-      <div class="hero-tag">
-        <span class="hero-tag-line"></span>
-        Développeur Full Stack &amp; Mobile Junior
-      </div>
-      <h1 class="hero-name">Alassane<br>Junior<br>Doumbia</h1>
-      <p class="hero-title">Je conçois des applications web, mobiles et desktop.</p>
-      <p class="hero-desc">
-        Basé à Abidjan, je construis des solutions digitales concrètes et fonctionnelles —
-        de l'idée jusqu'au déploiement. PHP, JavaScript, Flutter, React, Node.js.
-      </p>
-      <div class="hero-btns">
-        <a href="#projects" class="btn btn-main">Voir mes projets</a>
-        <a href="#contact" class="btn btn-outline">Me contacter</a>
-        <a href="https://github.com/HassanCode01-Coder" target="_blank" class="btn btn-outline">GitHub</a>
-      </div>
-      <div class="hero-stats">
-        <div>
-          <div class="stat-num">3<sup>+</sup></div>
-          <div class="stat-label">Projets livrés</div>
-        </div>
-        <div>
-          <div class="stat-num">2<sup>+</sup></div>
-          <div class="stat-label">Ans d'expérience</div>
-        </div>
-        <div>
-          <div class="stat-num">3</div>
-          <div class="stat-label">Certifications</div>
-        </div>
-      </div>
-    </div>
-    <div class="hero-photo-wrap">
-      <img src="images/photo.png" alt="Alassane Junior Doumbia">
-    </div>
+  <div class="btns">
+    <a class="btn" href="#projets"><i class="fa-solid fa-folder-open"></i>Voir mes projets</a>
+    <a class="btn ghost" href="CV-Alassane-Junior-Doumbia.pdf" download><i class="fa-solid fa-download"></i>Télécharger mon CV</a>
+    <a class="btn ghost" href="#contact"><i class="fa-solid fa-envelope"></i>Me contacter</a>
+    <a class="btn ghost" href="https://github.com/HassanCode01-Coder" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>GitHub</a>
   </div>
-</div>
-
-<!-- A PROPOS -->
-<div class="section" id="about">
-  <div class="section-inner">
-    <div class="section-eyebrow">À propos</div>
-    <h2 class="section-heading">Qui suis-je ?</h2>
-    <div class="about-grid">
-      <div class="about-text">
-        <p>
-          Je m'appelle <strong>Alassane Junior Doumbia</strong>, développeur Full Stack &amp; Mobile
-          basé à Abidjan. Étudiant en Licence Professionnelle Réseaux &amp; Génie Logiciel à Pigier CI,
-          j'ai toujours eu une conviction simple : <strong>on apprend mieux en construisant</strong>.
-          C'est pourquoi chacun de mes projets est une solution réelle, pensée pour répondre à un vrai besoin.
-        </p>
-        <p>
-          Ma passion pour le développement va bien au-delà du code. Je m'intéresse profondément à
-          <strong>l'Intelligence Artificielle appliquée aux réalités africaines</strong> — comment
-          les technologies intelligentes peuvent transformer l'éducation, la santé, l'agriculture
-          et la gouvernance sur notre continent. Je suis convaincu que l'Afrique a besoin de
-          développeurs qui ne copient pas les solutions occidentales, mais qui <strong>créent des
-          outils adaptés à notre contexte, notre langue, nos besoins</strong>.
-        </p>
-        <p>
-          Mon ambition est de contribuer à cet écosystème numérique africain en pleine croissance,
-          en développant des solutions innovantes qui ont un impact concret sur la vie des gens.
-          Chaque ligne de code que j'écris est une brique vers cette vision.
-        </p>
-      </div>
-      <div>
-        <div class="certs-title">Certifications</div>
-
-        <div class="cert-card">
-          <div class="cert-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
-            </svg>
-          </div>
-          <div>
-            <div class="cert-name">Microsoft Office Specialist</div>
-            <div class="cert-issuer">Microsoft · Excel Avancé</div>
-          </div>
-        </div>
-
-        <div class="cert-card">
-          <div class="cert-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
-              <line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/>
-            </svg>
-          </div>
-          <div>
-            <div class="cert-name">Fondamentaux de la Gestion de Projet</div>
-            <div class="cert-issuer">Certification professionnelle</div>
-          </div>
-        </div>
-
-        <div class="cert-card">
-          <div class="cert-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/>
-            </svg>
-          </div>
-          <div>
-            <div class="cert-name">Fondements de l'Action Humanitaire</div>
-            <div class="cert-issuer">DisasterReady</div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="stats">
+    <div><b>3+</b><span>Projets livrés</span></div>
+    <div><b>2+</b><span>Ans d’expérience</span></div>
+    <div><b>2</b><span>Apps mobiles (Android, Flutter)</span></div>
+    <div><b>3</b><span>Certifications</span></div>
   </div>
-</div>
+</section>
 
-<!-- COMPETENCES -->
-<div class="section section-alt" id="skills">
-  <div class="section-inner">
-    <div class="section-eyebrow">Stack technique</div>
-    <h2 class="section-heading">Compétences</h2>
-    <div class="skills-groups">
-      <div>
-        <div class="skill-group-title">Langages</div>
-        <div class="skill-tags">
-          <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">PHP</span>
-          <span class="skill-tag">Python</span>
-          <span class="skill-tag">Dart</span>
-          <span class="skill-tag">C++</span>
-          <span class="skill-tag">SQL</span>
-          <span class="skill-tag">VB.NET</span>
-        </div>
-      </div>
-      <div>
-        <div class="skill-group-title">Frameworks &amp; outils</div>
-        <div class="skill-tags">
-          <span class="skill-tag">React.js</span>
-          <span class="skill-tag">Node.js</span>
-          <span class="skill-tag">Flutter</span>
-          <span class="skill-tag">Firebase</span>
-          <span class="skill-tag">WordPress</span>
-          <span class="skill-tag">API REST</span>
-          <span class="skill-tag">Angular</span>
-        </div>
-      </div>
-      <div>
-        <div class="skill-group-title">Environnement</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Git / GitHub</span>
-          <span class="skill-tag">Linux</span>
-          <span class="skill-tag">Android Studio</span>
-          <span class="skill-tag">VS Code</span>
-          <span class="skill-tag">Figma</span>
-          <span class="skill-tag">Photoshop</span>
-          <span class="skill-tag">MySQL</span>
-        </div>
-      </div>
-    </div>
+<section class="wrap block" id="services">
+  <div class="eyebrow">Ce que je fais</div>
+  <h2>Du besoin au déploiement</h2>
+  <div class="services">
+    <div class="svc"><h4><i class="fa-solid fa-globe"></i>Web fullstack</h4><p>Applications React, Node.js et MySQL, API REST et tableaux de bord.</p></div>
+    <div class="svc"><h4><i class="fa-solid fa-mobile-screen"></i>Mobile</h4><p>Applications Android (Kotlin, Jetpack Compose) et Flutter, connectées à Supabase ou Firebase.</p></div>
+    <div class="svc"><h4><i class="fa-solid fa-microchip"></i>Desktop &amp; IA</h4><p>Logiciels de gestion Windows et agents IA intégrés à des applications utiles.</p></div>
   </div>
-</div>
+</section>
 
-<!-- PROJETS -->
-<div class="section" id="projects">
-  <div class="section-inner">
-    <div class="section-eyebrow">Réalisations</div>
-    <h2 class="section-heading">Projets</h2>
-    <div class="projects-stack">
+<section class="wrap block" id="projets">
+  <div class="eyebrow">Réalisations</div>
+  <h2>Projets</h2>
 
-      <!-- PROFYERE -->
-      <div class="proj-card">
-        <div class="proj-body">
-          <div class="proj-langs">
-            <span class="proj-lang">React.js</span>
-            <span class="proj-lang">Node.js</span>
-            <span class="proj-lang">MySQL</span>
-            <span class="proj-lang">Fullstack</span>
-          </div>
-          <div class="proj-name">ProfYèrè — Plateforme de gestion enseignants</div>
-          <p class="proj-desc">
-            Application web fullstack dédiée aux enseignants du supérieur. Calcul automatisé
-            des fiches de paie, gestion des emplois du temps, suivi des disponibilités
-            et messagerie interne en temps réel. Développée de A à Z de manière autonome.
-          </p>
-        </div>
-        <div class="proj-shots">
-          <img src="images/profyere-login.png" alt="Page de connexion ProfYèrè">
-          <img src="images/profyere-dashboard.png" alt="Tableau de bord ProfYèrè">
-          <img src="images/profyere-messages.png" alt="Messagerie ProfYèrè">
-        </div>
-      </div>
-
-      <!-- APP MOBILE -->
-      <div class="proj-card">
-        <div class="proj-body">
-          <div class="proj-langs">
-            <span class="proj-lang">Flutter</span>
-            <span class="proj-lang">Firebase</span>
-            <span class="proj-lang">Dart</span>
-            <span class="proj-lang">iOS &amp; Android</span>
-          </div>
-          <div class="proj-name">Maktabatu Salafiyyah — App mobile communautaire</div>
-          <p class="proj-desc">
-            Application mobile facilitant l'étude et le réseautage communautaire.
-            Authentification sécurisée, contenu dynamique synchronisé via Firebase,
-            interface pensée pour mobile. En cours de publication sur le Play Store et l'App Store.
-          </p>
-        </div>
-        <div class="proj-shots one">
-          <img src="images/flutter-code.png" alt="Code Flutter — Maktabatu Salafiyyah">
-        </div>
-      </div>
-
-      <!-- ATELIER -->
-      <div class="proj-card">
-        <div class="proj-body">
-          <div class="proj-langs">
-            <span class="proj-lang">Visual Basic .NET</span>
-            <span class="proj-lang">Windows Desktop</span>
-            <span class="proj-lang">SQL</span>
-          </div>
-          <div class="proj-name">Logiciel de gestion d'atelier de couture</div>
-          <p class="proj-desc">
-            Application desktop Windows complète pour la gestion d'un atelier de couture :
-            commandes clients, suivi des stocks, production et génération de rapports.
-            Base de données locale, interface intuitive.
-          </p>
-        </div>
-        <div class="code-preview">
-          <div class="cp-header">
-            <div class="cp-dot" style="background:#FF5F57"></div>
-            <div class="cp-dot" style="background:#FFBD2E"></div>
-            <div class="cp-dot" style="background:#28C840"></div>
-            <span class="cp-file">GestionCommandes.vb</span>
-          </div>
-<span class="cm">' Enregistrement d'une commande client</span><br>
-<span class="kw">Private Sub</span> <span class="fn">btnEnregistrer_Click</span>()<br>
-&nbsp;&nbsp;<span class="kw">Dim</span> conn <span class="kw">As New</span> <span class="fn">SqlConnection</span>(connString)<br>
-&nbsp;&nbsp;<span class="kw">Dim</span> cmd <span class="kw">As New</span> <span class="fn">SqlCommand</span>(<span class="st">"INSERT INTO Commandes VALUES(@client, @article, @qte, @date)"</span>, conn)<br>
-&nbsp;&nbsp;cmd.Parameters.AddWithValue(<span class="st">"@client"</span>, txtClient.Text)<br>
-&nbsp;&nbsp;cmd.Parameters.AddWithValue(<span class="st">"@article"</span>, cmbArticle.SelectedItem)<br>
-&nbsp;&nbsp;conn.Open()<br>
-&nbsp;&nbsp;cmd.ExecuteNonQuery()<br>
-&nbsp;&nbsp;<span class="fn">MAJStock</span>(article, quantite)<br>
-&nbsp;&nbsp;<span class="fn">MsgBox</span>(<span class="st">"Commande enregistrée avec succès"</span>)<br>
-<span class="kw">End Sub</span>
-        </div>
-      </div>
-
+  <article class="card">
+    <div class="tags"><span>Kotlin</span><span>Jetpack Compose</span><span>Supabase</span><span>Android</span></div>
+    <h3>ProblemLab — Capturer un problème, en tirer un projet</h3>
+    <p>Application Android pour signaler un problème en moins de 20 secondes (titre, secteur, photo), suivre ses observations par statut, puis laisser un agent IA en tirer des propositions de projets classées par priorité. Connexion par email avec code de vérification ou compte Google, backend Supabase.</p>
+    <p><a href="https://github.com/HassanCode01-Coder/ProblemLab" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Voir le code sur GitHub</a></p>
+    <div class="gallery">
+      <figure><img loading="lazy" src="images/problemlab-login.webp" alt="ProblemLab : écran de connexion"><figcaption>Connexion</figcaption></figure>
+      <figure><img loading="lazy" src="images/problemlab-accueil.webp" alt="ProblemLab : accueil"><figcaption>Accueil</figcaption></figure>
+      <figure><img loading="lazy" src="images/problemlab-observations.webp" alt="ProblemLab : liste des observations"><figcaption>Observations</figcaption></figure>
+      <figure><img loading="lazy" src="images/problemlab-agent.webp" alt="ProblemLab : sélection des observations pour l’agent IA"><figcaption>Agent IA</figcaption></figure>
+      <figure><img loading="lazy" src="images/problemlab-proposition.webp" alt="ProblemLab : proposition générée"><figcaption>Proposition générée</figcaption></figure>
+      <figure><img loading="lazy" src="images/problemlab-propositions.webp" alt="ProblemLab : propositions classées"><figcaption>Propositions classées</figcaption></figure>
     </div>
-  </div>
-</div>
-
-<!-- EXPERIENCE -->
-<div class="section section-alt" id="experience">
-  <div class="section-inner">
-    <div class="section-eyebrow">Parcours</div>
-    <h2 class="section-heading">Expérience professionnelle</h2>
-    <div class="exp-list">
-
-      <div class="exp-item">
-        <div class="exp-period">Déc. 2024<br>Avr. 2025</div>
-        <div>
-          <div class="exp-role">Assistant Informaticien</div>
-          <div class="exp-company">SOCIFAD · Société Industrielle · Abidjan</div>
-          <div class="exp-desc">Développement d'un logiciel desktop de gestion des stocks et des ressources humaines. Refonte et maintenance du site web institutionnel. Support technique aux équipes et gestion du parc informatique. Initiation à la cybersécurité et protection des données.</div>
-        </div>
-      </div>
-
-      <div class="exp-item">
-        <div class="exp-period">Déc. 2024<br>Avr. 2025</div>
-        <div>
-          <div class="exp-role">Télévendeur / Téléconseiller</div>
-          <div class="exp-company">NATURALIS · Abidjan</div>
-          <div class="exp-desc">Prospection téléphonique et vente de produits. Conseil personnalisé et fidélisation clients. Gestion des objections et utilisation d'outils CRM. Atteinte des objectifs commerciaux.</div>
-        </div>
-      </div>
-
-      <div class="exp-item">
-        <div class="exp-period">Juil. 2024<br>Oct. 2024</div>
-        <div>
-          <div class="exp-role">Développeur Web — Stagiaire</div>
-          <div class="exp-company">FanganTech · Startup · Abidjan</div>
-          <div class="exp-desc">Création de sites web professionnels avec WordPress. Développement et intégration d'API REST. Configuration de systèmes d'exploitation pour des clients. Développement mobile avec Android Studio en équipe agile.</div>
-        </div>
-      </div>
-
-      <div class="exp-item">
-        <div class="exp-period">2022 — 2024</div>
-        <div>
-          <div class="exp-role">Bénévolat Communautaire</div>
-          <div class="exp-company">AEEMCI · Abidjan</div>
-          <div class="exp-desc">Participation active à l'organisation d'événements communautaires de grande envergure (600+ participants). Développement du leadership, de la communication et de la gestion d'équipe dans un cadre associatif.</div>
-        </div>
-      </div>
-
+    <h4 class="sub">Backend Supabase</h4>
+    <p>Authentification par email et Google, base de données Postgres et stockage des photos et audios des observations.</p>
+    <div class="backend">
+      <figure><img loading="lazy" src="images/supabase-auth.webp" alt="Supabase : authentification des utilisateurs"><figcaption>Authentification (email et Google)</figcaption></figure>
+      <figure><img loading="lazy" src="images/supabase-storage.webp" alt="Supabase : stockage des photos et audios"><figcaption>Stockage des photos et audios</figcaption></figure>
     </div>
-  </div>
-</div>
+  </article>
 
-<!-- CONTACT -->
-<div class="section" id="contact">
-  <div class="section-inner">
-    <div class="section-eyebrow">Contact</div>
-    <h2 class="section-heading">Travaillons ensemble</h2>
-    <div class="contact-grid">
-      <div>
-        <p class="contact-intro">
-          Disponible pour un <strong style="color:#fff">stage</strong>, un <strong style="color:#fff">CDD</strong>,
-          un <strong style="color:#fff">CDI</strong> ou une mission <strong style="color:#fff">freelance</strong>.
-          Mon emploi du temps est flexible et je suis prêt à m'investir immédiatement
-          dans des projets qui ont du sens.
-        </p>
-        <div class="contact-links">
-          <a href="mailto:doumbiaalassanejunior01@gmail.com" class="contact-link">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-              <polyline points="22,6 12,12 2,6"/>
-            </svg>
-            doumbiaalassanejunior01@gmail.com
-          </a>
-          <a href="tel:+2250574666824" class="contact-link">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 12 19.79 19.79 0 01.11 3.37 2 2 0 012.08 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9"/>
-            </svg>
-            +225 05 74 66 68 24
-          </a>
-          <a href="https://linkedin.com/in/hassan-doumbia-dev" target="_blank" class="contact-link">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
-              <rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
-            </svg>
-            linkedin.com/in/hassan-doumbia-dev
-          </a>
-          <a href="https://github.com/HassanCode01-Coder" target="_blank" class="contact-link">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
-            </svg>
-            github.com/HassanCode01-Coder
-          </a>
-        </div>
-      </div>
-      <div class="contact-avail">
-        <div class="avail-title">
-          <span class="avail-dot"></span>Disponible maintenant
-        </div>
-        <div class="avail-list">
-          <div class="avail-item">Stage de fin d'études</div>
-          <div class="avail-item">Premier emploi (CDD / CDI)</div>
-          <div class="avail-item">Mission freelance</div>
-          <div class="avail-item">Abidjan &amp; Télétravail</div>
-          <div class="avail-item">Emploi du temps flexible</div>
-        </div>
-      </div>
+  <article class="card">
+    <div class="tags"><span>React.js</span><span>Node.js</span><span>MySQL</span><span>Fullstack</span></div>
+    <h3>ProfYèrè — Gestion des enseignants</h3>
+    <p>Application web fullstack pour les enseignants du supérieur : calcul automatisé des fiches de paie, emplois du temps, disponibilités et messagerie interne en temps réel. Développée de A à Z en autonomie.</p>
+    <div class="shots">
+      <img loading="lazy" src="images/profyere-login.png" alt="ProfYèrè : connexion">
+      <img loading="lazy" src="images/profyere-dashboard.png" alt="ProfYèrè : tableau de bord">
+      <img loading="lazy" src="images/profyere-messages.png" alt="ProfYèrè : messagerie">
     </div>
+  </article>
+
+  <article class="card">
+    <div class="tags"><span>Flutter</span><span>Firebase</span><span>Dart</span><span>iOS &amp; Android</span></div>
+    <h3>Maktabatu Salafiyyah — App mobile</h3>
+    <p>Application mobile d’étude et de réseautage communautaire : authentification sécurisée, contenu dynamique synchronisé via Firebase. En cours de publication sur le Play Store et l’App Store.</p>
+    <div class="shots one"><img loading="lazy" src="images/flutter-code.png" alt="Code Flutter de Maktabatu Salafiyyah"></div>
+  </article>
+
+  <article class="card">
+    <div class="tags"><span>VB.NET</span><span>Windows</span><span>SQL</span></div>
+    <h3>Gestion d’atelier de couture</h3>
+    <p>Logiciel desktop Windows : commandes clients, suivi des stocks, production et rapports, avec base de données locale.</p>
+  </article>
+</section>
+
+<section class="wrap block" id="competences">
+  <div class="eyebrow">Stack technique</div>
+  <h2>Compétences</h2>
+  <div class="skills">
+    <div><h4>Langages</h4><p>JavaScript, Kotlin, PHP, Python, Dart, C++, SQL, VB.NET</p></div>
+    <div><h4>Frameworks &amp; outils</h4><p>Jetpack Compose, React.js, Node.js, Flutter, Firebase, Supabase, Angular, WordPress, API REST</p></div>
+    <div><h4>Environnement</h4><p>Git / GitHub, Linux, Android Studio, VS Code, Figma, Photoshop, MySQL</p></div>
   </div>
-</div>
+  <div class="certs">
+    <span><i class="fa-solid fa-award"></i>Microsoft Office Specialist — Excel avancé</span>
+    <span><i class="fa-solid fa-award"></i>Fondamentaux de la gestion de projet</span>
+    <span><i class="fa-solid fa-award"></i>Fondements de l’action humanitaire (DisasterReady)</span>
+  </div>
+</section>
 
-<footer>
-  Alassane Junior Doumbia — <span>AJ.dev</span> — Abidjan, Côte d'Ivoire — 2026
-</footer>
+<section class="wrap block" id="parcours">
+  <div class="eyebrow">Parcours</div>
+  <h2>Expérience</h2>
+  <div class="exp"><div class="when">Mai 2025 – Mai 2026</div><div><h3>Assistant informaticien</h3><div class="org">SOCIFAD · Abidjan · CDD</div><p>Développement de solutions logicielles sur mesure pour l’usine (gestion des stocks et des ressources humaines), supervision de l’installation des équipements informatiques, refonte et maintenance du site institutionnel.</p></div></div>
+  <div class="exp"><div class="when">Déc. 2024 – Avr. 2025</div><div><h3>Télévendeur / Téléconseiller</h3><div class="org">NATURALIS · Abidjan · CDD</div><p>Prospection téléphonique, conseil et fidélisation clients, utilisation d’outils CRM.</p></div></div>
+  <div class="exp"><div class="when">Juil. – Oct. 2024</div><div><h3>Développeur web, stagiaire</h3><div class="org">FanganTech · Abidjan</div><p>Sites WordPress, intégration d’API REST, développement mobile avec Android Studio en équipe agile.</p></div></div>
+  <div class="exp"><div class="when">2022 – 2024</div><div><h3>Bénévole communautaire</h3><div class="org">AEEMCI · Abidjan</div><p>Organisation d’événements de plus de 600 participants : leadership et gestion d’équipe.</p></div></div>
+</section>
 
+<section class="wrap block" id="contact">
+  <div class="eyebrow">Contact</div>
+  <h2>Travaillons ensemble</h2>
+  <p class="lead small">Disponible pour un stage, un CDD, un CDI ou une mission freelance, à Abidjan ou en télétravail.</p>
+  <div class="links">
+    <a href="mailto:doumbiaalassanejunior01@gmail.com"><i class="fa-solid fa-envelope"></i>doumbiaalassanejunior01@gmail.com</a>
+    <a href="https://wa.me/2250574666824" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp : +225 05 74 66 68 24</a>
+    <a href="tel:+2250574666824"><i class="fa-solid fa-phone"></i>+225 05 74 66 68 24</a>
+    <a href="https://linkedin.com/in/hassan-doumbia-dev" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i>linkedin.com/in/hassan-doumbia-dev</a>
+    <a href="https://github.com/HassanCode01-Coder" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>github.com/HassanCode01-Coder</a>
+  </div>
+</section>
+</main>
+
+<footer>Alassane Junior Doumbia — Abidjan, Côte d’Ivoire — 2026</footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script>
+const lb=document.getElementById('lb'),lbi=lb.querySelector('img');
+document.querySelectorAll('.gallery img,.shots img,.backend img').forEach(i=>i.addEventListener('click',()=>{lbi.src=i.src;lbi.alt=i.alt;lb.classList.add('on')}));
+lb.addEventListener('click',()=>lb.classList.remove('on'));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('on')});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll('.card,.svc,.exp,.block h2').forEach(el=>{el.classList.add('rv');io.observe(el)});
+</script>
 </body>
 </html>
